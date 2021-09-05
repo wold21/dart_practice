@@ -31,16 +31,16 @@ void main(List<String> arguments) {
 
   // List
   // 선언법
-  List myHome = [];
-  myHome.add("에어컨");
-  myHome.add("스피커");
-  myHome.add("냉장고");
-  print(myHome);
-  myHome.removeAt(0);
-  print(myHome);
-  for (var i = 0; i < myHome.length; i++) {
-    print(myHome[i]);
-  }
+  // List myHome = [];
+  // myHome.add("에어컨");
+  // myHome.add("스피커");
+  // myHome.add("냉장고");
+  // print(myHome);
+  // myHome.removeAt(0);
+  // print(myHome);
+  // for (var i = 0; i < myHome.length; i++) {
+  //   print(myHome[i]);
+  // }
 
   // 아래와 같은 선언법은 더이상 사용되지 않는다.
   // List myHome2 = new List();
@@ -59,9 +59,32 @@ void main(List<String> arguments) {
   // ]);
   // print(test);
 
-  List<String> myGuitar = [];
-  myGuitar.add("wood");
-  myGuitar.add("steel");
-  myGuitar.add("nylon");
-  print(myGuitar);
+  // List<String> myGuitar = [];
+  // myGuitar.add("wood");
+  // myGuitar.add("steel");
+  // myGuitar.add("nylon");
+  // print(myGuitar);
+
+  // // Map
+  // Map dict = {'apple': '사과', 'banana': '바나나', 'waterMelon': '수박'};
+  // print(dict);
+
+  // Map dict2 = {};
+  // dict2.addAll({'test': 'test'});
+  // dict2.remove('test');
+  // print(dict2);
+
+  // Map dict3 = new Map.from({'apple': '사과', 'banana': '바나나'});
+  // print(dict3);
+  // print(dict3.keys.toList());
+  // print(dict3.values.toList());
+
+  // Map<String, int> price = {'apple': 2000, 'watermelon': 3000, 'melon': 5000};
+  // print(price);
+
+  // // 변수 선언법
+  // 소문자와 언더바로 시작한다.
+  // 띄어쓰기는 카멜 케이스
+  // 첫번째 글자는 대문자 X
+  // 중복 사용 X
 }
